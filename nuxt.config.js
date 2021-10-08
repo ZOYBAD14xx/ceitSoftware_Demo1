@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - ceitBlog',
-    title: 'ceitBlog',
+    titleTemplate: '%s - Software',
+    title: 'CEIT',
     htmlAttrs: {
       lang: 'en'
     },
