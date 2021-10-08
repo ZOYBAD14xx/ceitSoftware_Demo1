@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'BoonHome';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/BoonHome.ttf') format('truetype');
+}
+html {
+  font-family: "BoonHome";
+}
