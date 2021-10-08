@@ -9,7 +9,6 @@
       <v-icon @click="model--">
         mdi-minus
       </v-icon>
-      {{ model }}
       <v-icon @click="model++">
         mdi-plus
       </v-icon>
