@@ -55,22 +55,22 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Welcome',
+          title: 'ໜັາຫຼັກ',
           to: '/',
         },
         {
           icon: 'mdi-view-list',
-          title: 'Workings',
+          title: 'ຜົນງານ',
           to: '/working',
         },
         {
           icon: 'mdi-folder',
-          title: 'Members',
+          title: 'ກ່ຽວກັບພວກເຮົາ',
           to: '/about',
         },
         {
           icon: ' mdi-clipboard-account',
-          title: 'Contact Us',
+          title: 'ຊ່ອງທາງການຕິດຕໍ່',
           to: '/contact',
         },
       ],

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <center><h1>ALUMNINE GENERATION</h1></center>
       <memberCard :posts="fetchData"/>
   </div>
 </template>

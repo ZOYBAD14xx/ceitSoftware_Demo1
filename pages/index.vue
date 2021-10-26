@@ -3,7 +3,7 @@
     <slidePic />
     <mainPoint />
     <center>
-      <h1>Workings</h1>
+      <h1 id="highlight">Workings</h1>
     </center>
     <showWorkHome />
     <div class="text-center my-5">
@@ -28,4 +28,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#highlight{
+  background-color:#64b5f6;
+  color:#fff
+}
+</style>

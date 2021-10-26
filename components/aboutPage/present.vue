@@ -1,6 +1,5 @@
 <template>
   <div>
-    <center><h1>PRESENT GENERATION</h1></center>
       <memberCard :posts="fetchData"/>
   </div>
 </template>

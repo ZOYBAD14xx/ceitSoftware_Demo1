@@ -1,14 +1,12 @@
 <template>
   <v-col>
     <center>
-      <v-card class="mx-auto" max-width="344">
+      <v-card shaped class="mx-auto" max-width="344">
         <v-img :src="image" height="300px"></v-img>
-        <h2 class="pt-5" :fullname="fullname" :nickname="nickname">
+        <h2 style="color:#64B5F6" class="pt-5" :fullname="fullname" :nickname="nickname">
           {{ fullname }} ({{ nickname }})
         </h2>
-        <p class="mt-2" :position="position"> <b>{{ position }}</b> </p>
-        <p :mj="mj"><b>Major:</b> {{ mj }} </p>
-        <p :year="year"><b>Year: </b>{{ year }} </p>
+        <p class="mt-4" :position="position"><i> {{ position }}</i></p>
         <v-card-actions>
           <v-btn icon @click="show = !show">
             <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
@@ -45,14 +43,6 @@ export default {
       required: true,
     },
     position: {
-      type: String,
-      required: true,
-    },
-    mj: {
-      type: String,
-      required: true,
-    },
-    year: {
       type: String,
       required: true,
     },

@@ -1,6 +1,6 @@
 <template>
   <div class="my-5">
-    <center><h1>Coming Events</h1></center>
+    <center><h1 id="highlight">ກິດຈະກຳທີ່ກຳລັງຈະຈັດຂື້ນ</h1></center>
     <showEventComing/>
   </div>
 </template>

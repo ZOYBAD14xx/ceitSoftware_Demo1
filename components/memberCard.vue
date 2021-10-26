@@ -5,8 +5,6 @@
       :key="item.id"
       :fullname="item.fname"
       :nickname="item.nname"
-      :mj="item.mj"
-      :year="item.year"
       :position="item.position"
       :fb="item.fb"
       :image="item.image"

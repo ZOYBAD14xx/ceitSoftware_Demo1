@@ -1,6 +1,8 @@
 <template>
   <v-col class="md-3">
+    <nuxt-link style="text-decoration: none; color: inherit;" :to="`/event/${id}`">
     <v-card
+    shaped
     class="mx-auto"
     max-width="350px"
   >
@@ -16,12 +18,18 @@
     </v-card-text>
 
   </v-card>
+  </nuxt-link>
+
   </v-col>
 </template>
 
 <script>
 export default {
   props: {
+      id:{
+      type:Number,
+      required:true
+    },
     title: {
       type:String,
       required: true,

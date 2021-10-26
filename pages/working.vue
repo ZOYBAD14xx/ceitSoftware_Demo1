@@ -3,7 +3,7 @@
     <commingEvent />
     <EventCard :posts="getdata" />
     <center>
-      <h1>Photo</h1>
+      <h1 id="highlight">ຮູບພາບ</h1>
     </center>
     <showPhoto />
   </v-contrainer>

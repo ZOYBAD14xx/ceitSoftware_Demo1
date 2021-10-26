@@ -1,12 +1,12 @@
 <template>
   <v-col>
     <center>
-      <v-card class="mx-auto" max-width="344">
+      <v-card shaped class="mx-auto" max-width="344">
         <v-img :src="image" height="300px"></v-img>
-        <h2 class="pt-5" :fullname="fullname">
+        <h2  style="color:#64B5F6" class="pt-5" :fullname="fullname">
           {{ fullname }}
         </h2>
-        <p class="my-5" :position="position"> <b>{{ position }}</b> </p>
+        <p class="my-5" :position="position"> <i>{{ position }}</i> </p>
         <br>
       </v-card>
     </center>

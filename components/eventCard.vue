@@ -1,6 +1,7 @@
 <template>
   <v-col>
-      <v-card class="mx-auto" max-width="350">
+    <nuxt-link style="text-decoration: none; color: inherit;" :to="`/event/${id}`">
+      <v-card shaped class="mx-auto" max-width="350">
       <v-img class="white--text align-end"  height="auto" :src="image">
       </v-img>
       <v-card-title :title="title">{{ title }}</v-card-title>
@@ -8,6 +9,7 @@
         <p :time="time">Date: {{ time }}</p>
       </v-card-text>
     </v-card>
+    </nuxt-link>
 
   </v-col>
 </template>
@@ -16,7 +18,7 @@
 export default {
   props: {
     id:{
-      type:String,
+      type:Number,
       required:true
     },
     key:{

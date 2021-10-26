@@ -1,6 +1,5 @@
 <template>
   <div>
-    <center><h1>ADVISOR</h1></center>
       <adCard :posts="getdata"/>
   </div>
 </template>

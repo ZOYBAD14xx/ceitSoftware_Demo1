@@ -18,8 +18,6 @@ export default {
         'https://raw.githubusercontent.com/ZOYBAD14xx/CeitSoftWareWeb/main/photoApi.json'
       ).then(res => res.json())
     }
-
-
 }
 </script>
 

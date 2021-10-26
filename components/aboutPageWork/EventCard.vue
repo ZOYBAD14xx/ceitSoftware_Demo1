@@ -1,9 +1,10 @@
 <template>
   <div>
-    <center><h1>Past Events</h1></center>
+    <center><h1 id="highlight">ກິດຈະກຳທີ່ຜ່ານມາ</h1></center>
     <v-row class="my-5">
       <eventCard
         v-for="item in posts"
+        :id="item.id"
         :key="item.id"
         :title="item.title"
         :image="item.img"
