@@ -1,5 +1,5 @@
 <template>
-  <div class="my-5">
+  <div class="text">
     <center class="my-5">
       <h1 id="highlight">ຈຸດປະສົງ ແລະ ເປົ້າໝາຍຂອງກຸ່ມ</h1>
     </center>
@@ -23,4 +23,8 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+.text{
+  font-size: 20px;
+}
+</style>

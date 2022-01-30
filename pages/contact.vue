@@ -43,7 +43,7 @@
             </v-img>
 
             <v-card-title><center>
-               <p class="text-sm-body-3" >ພາກວິຊາວິສະວະກຳຄອມພິວເຕີ ແລະ ເຕັກໂນໂລຊີຂໍ້ມູນຂ່າວສານ</p>
+               <p class="text-sm-body-3" > <b>ພາກວິຊາວິສະວະກຳຄອມພິວເຕີ ແລະ ເຕັກໂນໂລຊີຂໍ້ມູນຂ່າວສານ</b></p>
               </center>
             </v-card-title>
             <center>

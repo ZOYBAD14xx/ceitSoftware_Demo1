@@ -1,6 +1,6 @@
 <template>
   <v-app light>
-    <v-navigation-drawer v-model="drawer" :clipped="clipped" fixed app>
+   <v-navigation-drawer v-model="drawer" :clipped="clipped" fixed app>
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -13,7 +13,7 @@
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title class="text-tab" v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -27,7 +27,7 @@
       <v-spacer></v-spacer>
 
 
-      <nuxt-link to="/" class="mr-4 only-small">
+      <!-- <nuxt-link to="/" class="mr-4 only-small">
       <h3>ໜ້າຫຼັກ</h3>
       </nuxt-link>
       <nuxt-link to="/working" class="mr-4 only-small">
@@ -38,7 +38,7 @@
       </nuxt-link>
       <nuxt-link to="/contact" class="mr-4 only-small">
       <h3>ຊ່ອງທາງການຕິດຕໍ່</h3>
-      </nuxt-link>
+      </nuxt-link> -->
 
     </v-app-bar>
     <v-main>
@@ -139,5 +139,8 @@ export default {
     .only-small {
         display: none !important;
     }
+}
+.text-tab{
+  font-size: 18px;
 }
 </style>
