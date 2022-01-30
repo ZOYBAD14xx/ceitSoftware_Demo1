@@ -30,7 +30,7 @@
       return {
         items:[
           {src:'https://raw.githubusercontent.com/ZOYBAD14xx/CeitSoftWareWeb/main/image/Cover-1.jpg'},
-          {src:'https://raw.githubusercontent.com/ZOYBAD14xx/CeitSoftWareWeb/main/image/Cover-2.jpg'},
+          {src:'https://raw.githubusercontent.com/ZOYBAD14xx/CeitSoftWareWeb/main/image/Cover-2-1.jpg'},
           {src:'https://raw.githubusercontent.com/ZOYBAD14xx/CeitSoftWareWeb/main/image/Cover-3.jpg'},
           {src:'https://raw.githubusercontent.com/ZOYBAD14xx/CeitSoftWareWeb/main/image/Cover-4.jpg'},
           ],
