@@ -5,10 +5,7 @@
     </v-tabs>
     <v-tabs-items v-model="tab">
       <v-tab-item :key="1" value="title">
-        <v-card class="my-5" flat>
-          <center><photoShowInPost :posts="fetch.gal" /></center>
-          <advisor />
-        </v-card>
+        <photoShowInPost :posts="fetch.gal" />
       </v-tab-item>
     </v-tabs-items>
   </v-contrainer>

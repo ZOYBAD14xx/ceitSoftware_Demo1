@@ -32,6 +32,9 @@ export default {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/favicon.ico'
+    }, {
+      href:"https://fonts.googleapis.com/css2?family=Noto+Serif+Lao&display=swap",
+      rel: "stylesheet"
     }]
   },
 

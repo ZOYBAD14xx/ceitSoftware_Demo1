@@ -1,15 +1,19 @@
 <template>
   <v-app dark>
+    <center>
     <h1 v-if="error.statusCode === 404">
       {{ pageNotFound }}
     </h1>
     <h1 v-else>
       {{ otherError }}
     </h1>
+    <h3>{{back}}</h3>
     <NuxtLink to="/">
-      Home page
+      ໜ້າຫຼັກ
     </NuxtLink>
+    </center>
   </v-app>
+
 </template>
 
 <script>
@@ -24,7 +28,8 @@ export default {
   data () {
     return {
       pageNotFound: '404 Not Found',
-      otherError: 'An error occurred'
+      otherError: 'ບໍ່ພົບໜ້າທີ່ທ່ານຕ້ອງການ ອາດມີການປ່ຽນແປງໃນຂ້າງໜ້າ',
+      back:'ກະລຸນາກັບໄປໜ້າຫຼັກ'
     }
   },
   head () {

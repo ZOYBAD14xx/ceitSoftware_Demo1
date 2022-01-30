@@ -1,5 +1,5 @@
 <template>
-  <v-row class="my-5">
+  <v-row class="my-5" >
     <ProfileCard
       v-for="item in posts"
       :key="item.id"

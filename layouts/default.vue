@@ -24,6 +24,22 @@
       <nuxt-link to="/">
         <img src="@/assets/image/logo.png" height="30vw" />
       </nuxt-link>
+      <v-spacer></v-spacer>
+
+
+      <nuxt-link to="/" class="mr-4 only-small">
+      <h3>ໜ້າຫຼັກ</h3>
+      </nuxt-link>
+      <nuxt-link to="/working" class="mr-4 only-small">
+      <h3>ຜົນງານ</h3>
+      </nuxt-link>
+      <nuxt-link to="/about" class="mr-4 only-small">
+      <h3>ກ່ຽວກັບພວກເຮົາ</h3>
+      </nuxt-link>
+      <nuxt-link to="/contact" class="mr-4 only-small">
+      <h3>ຊ່ອງທາງການຕິດຕໍ່</h3>
+      </nuxt-link>
+
     </v-app-bar>
     <v-main>
       <v-container>
@@ -107,3 +123,21 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.only-small{
+  text-decoration: none;
+   color: rgb(100, 100, 100);
+}
+.nuxt-link-exact-active {
+    font-weight: bold;
+    color: #64b5f6;
+    text-decoration: underline;
+
+}
+@media screen and (max-width: 768px) {
+    .only-small {
+        display: none !important;
+    }
+}
+</style>

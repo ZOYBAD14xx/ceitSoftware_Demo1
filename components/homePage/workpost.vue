@@ -1,5 +1,5 @@
 <template>
-  <v-col class="md-3">
+  <v-col md=4>
     <nuxt-link style="text-decoration: none; color: inherit;" :to="`/event/${id}`">
     <v-card
     shaped

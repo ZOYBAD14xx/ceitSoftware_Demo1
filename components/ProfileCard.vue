@@ -1,5 +1,5 @@
 <template>
-  <v-col>
+  <v-col class="d-flex child-flex" md=4>
     <center>
       <v-card shaped class="mx-auto" max-width="344">
         <v-img :src="image" height="300px"></v-img>
