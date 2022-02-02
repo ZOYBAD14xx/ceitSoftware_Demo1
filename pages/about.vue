@@ -1,7 +1,7 @@
 <template>
   <v-contrainer>
     <v-tabs v-model="tab" fixed-tabs background-color="blue lighten-2" dark>
-      <v-tab class="text-tab" href="#ad"> ອາຈານທີ່ປຶກສາ </v-tab>
+      <v-tab class="text-tab" href="#ad"> ອາຈານທີ່ປຶກສາ - ຜູ້ຮ່ວມກໍ່ຕັ້ງ </v-tab>
       <v-tab class="text-tab" href="#all"> ສະມາຊິກທັງໝົດ </v-tab>
       <v-tab class="text-tab" href="#al"> ສະມາຊິກເກົ່າ </v-tab>
       <v-tab class="text-tab" href="#his"> ປະຫວັດຄວາມເປັນມາ </v-tab>
@@ -12,16 +12,22 @@
         <v-card class="my-5" flat>
           <center><h1 class="toptext">ອາຈານທີ່ປຶກສາ</h1></center>
           <advisor />
+          <center><h1 class="toptext">ຜູ້ຮ່ວມກໍ່ຕັ້ງ</h1></center>
+          <cofound />
         </v-card>
       </v-tab-item>
+
       <v-tab-item :key="2" value="all">
         <v-card class="my-5" flat>
           <center><h1 class="toptext">ລຸ້ນທີ່ 2</h1></center>
           <present />
           <center><h1 class="toptext">ລຸ້ນທີ່ 3</h1></center>
           <newMem />
+          <center><h1 class="toptext">ລຸ້ນທີ່ 4</h1></center>
+          <newMem4 />
         </v-card>
       </v-tab-item>
+
       <v-tab-item :key="3" value="al">
         <v-card class="my-5" flat>
           <center><h1 class="toptext">ລຸ້ນທີ່ 1</h1></center>
@@ -74,12 +80,16 @@ import newMem from '../components/aboutPage/newMem';
 import oldMem from '../components/aboutPage/oldMem';
 import advisor from '../components/aboutPage/advisor';
 import present from '../components/aboutPage/present';
+import newMem4 from '../components/aboutPage/newMem4';
+import cofound from '../components/aboutPage/cofound';
 export default {
   components: {
     newMem,
     present,
     oldMem,
     advisor,
+    newMem4,
+    cofound
   },
   data() {
     return {
